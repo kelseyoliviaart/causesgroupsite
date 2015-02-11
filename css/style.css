@@ -1,6 +1,5 @@
 #navbar{
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 100%;
 }
 
 #footer {
@@ -30,6 +29,7 @@
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    text-align: center;
 }
 
 #logo{
@@ -91,3 +91,12 @@ a:visited{
 footer{
 	margin-top: 90%;
 }
+.left, .right{
+	float:left;
+	width: 50%;
+}
+.img{
+	float: left;
+	width: 50%;
+}
+
