@@ -3,6 +3,28 @@
 	margin-right: 10%;
 }
 
+#footer {
+	clear: both;
+	margin-top: 30%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.first, .second, .third {
+	float: left;
+	width: 20em;
+	height: 10em;
+	margin-left: 20px;
+}
+
+.description{
+	margin-left: 10%;
+	margin-right: 10%;
+	clear:both;
+}
+
 .topbar{
 	background-image: url("../images/background.jpg");
 	background-size: cover;
