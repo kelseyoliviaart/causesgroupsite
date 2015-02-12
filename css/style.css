@@ -4,25 +4,31 @@
 
 #footer {
 	clear: both;
-	margin-top: 30%;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.first, .second, .third {
-	float: left;
-	width: 20em;
-	height: 10em;
-	margin-left: 20px;
+	font-size: 75%;
+	font-style: italic;
+	text-align: right;
 }
 
 .description{
 	margin-left: 10%;
 	margin-right: 10%;
-	clear:both;
+	/*border: 1px solid red;*/
 }
+
+.block_img{
+	max-width: 33%;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	display: inline;
+}
+.blocks {
+	clear: both;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
 
 .topbar{
 	background-image: url("../images/background.jpg");
@@ -49,17 +55,6 @@ ul.nav li{
 	display: inline; 
 }
 
-.my-button{  
-	padding: 10px 12px;  
-	border: 1px solid aqua;  
-	color: aqua;  
-	background-color: blue;  
-	text-decoration: none;  
-	display: inline-block;  
-	border-radius: 5px; 
-} 
-
-
 a:hover{
 	text-decoration: none;
 	background-color: black;
@@ -71,32 +66,25 @@ a:visited{
 	color: blue;
 }
 
-.my-button:hover{  
-	margin: 2px 0 0 2px;
-	background-color: white; 
-}
-
-.form_elements{  
-	padding: 4px;  
-	font-size: 1.5em;  
-	font-family: "Arial", 
-	sans-serif; 
-}
-
-.form_label{
-	color: blue;
-	background-color: white;
-}
-
-footer{
-	margin-top: 90%;
-}
 .left, .right{
 	float:left;
 	width: 50%;
 }
+
 .img{
 	float: left;
 	width: 50%;
 }
 
+.event_gallery{
+	max-width: 20%;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+h3{
+	clear: both;
+	font-style: italic;
+	color: blue;
+}
